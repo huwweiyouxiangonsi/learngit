@@ -16,7 +16,7 @@ Git 命令：
 9、撤销暂存区的操作           git reset HEAD <file>
 10、从暂存区删除              git rm <file>
 11、暂存区版本替换工作区版本  git checkout <file>
-12、从本地库提交到远程库      git push -u origin maste
+12、从本地库提交到远程库      git push origin maste
 13、删除远程库                git remote rm origin
 14、创建远程库                git remote add origin git@github.com:huwweiyouxiangonsi/learngit.git
 15、将本地文件提交到远程库    git push  origin master
