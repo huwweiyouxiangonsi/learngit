@@ -23,12 +23,18 @@ Git 命令：
 16、把这个目录变成Git可以管理的仓库       git init
 --------------------------------------------------------------
 17、克隆一个本地库            git clone git@github.com:huwweiyouxiangonsi/gitskill.git
-18、创建并切换分支            git checkout -b <name>
+18、创建+ 切换分支            git checkout -b <name>
 19、查看有几个分支            git branch 
 20、删除分支                  git branch -d dev
 21、合并分支                  git merge dev
 22、切换分支                  git checkout <name>
-
+23、创建分支                  git branch <name>
+24、查看分支合并图            git log --graph
+当分支发生冲突的时候，无法自动合并，需要自己手动编辑内容合并
+看分支图的详细命令: git log --graph --pretty=oneline --abbrev-commit  
+25、合并分支时加上 --no-ff 就可以用普通模式合并，
+    没有合并历史，fast forward 没有合并历史
+26、公司开发的时候，主分支不公作，只是用来发布版本,dev 相当与工作主干，大家有各自的分支，在dev上下载代码，最后提交到dev上
 -------------------------------------------------------------
 
 
