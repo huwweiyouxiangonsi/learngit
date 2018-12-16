@@ -41,4 +41,11 @@ Git 命令：
 29、恢复现存场                git stash apply
 30、删除现场保存信息          git stash drop 
 31、恢复现场，并且删除信息    git stash pop
+32、强行删除分支              git branch -D <name>
+--------------------------------------------------------------
+33、查看远程库的信息          git remote
+33、显示更详细的信息          git remote -v
+34、抓取远程库最新的提交      git pull
+	pull失败:将分支和远程库对应分支连接
+	git branch --set-upstream-to=origin/dev dev
 
