@@ -48,4 +48,17 @@ Git 命令：
 34、抓取远程库最新的提交      git pull
 	pull失败:将分支和远程库对应分支连接
 	git branch --set-upstream-to=origin/dev dev
+35、将本地未push的分叉历史信息合并成直线    git rebase
+rebase 可以使我们在查看历史提交的变化时更容易
+------------------------------------------------------------
+36、创建标签（默认最新的commit）        git tag <name>
+37、查看所有标签                        git tag
+38、按版本号打标签           	        git tag v0.9 f56676543
+39、创建带有说明的标签                  git tag -a v0.1 -m "说明文字" a12a
+40、可以看到标签的说明文字              git show<tagname>
+41、删除标签                            git tag -d v0.1
+42、推送某个标签到远程                  git push origin<tagname>
+    一次性推送所有尚未推送的标签        git push origin --tags
+43、从远端删除     1 删本地  2 删远端   git push origin :refs/tags/v0.9
+
 
